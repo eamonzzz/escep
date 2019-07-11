@@ -27,5 +27,22 @@ repositories {
 }
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+
+    implementation "org.bouncycastle:bcprov-jdk15on:1.62"
+    implementation "org.bouncycastle:bcpkix-jdk15on:1.62"
+    implementation 'org.bouncycastle:bcpg-jdk15on:1.62'
+
+    implementation('org.apache.httpcomponents:httpclient')
+    implementation('org.apache.httpcomponents:httpmime')
+    implementation('org.apache.httpcomponents:httpcore')
+    implementation('org.apache.httpcomponents:httpclient-cache')
+
+    implementation('com.alibaba:fastjson:1.2.47')
+
+    implementation 'org.apache.commons:commons-lang3:3.8'
+    implementation 'org.apache.commons:commons-collections4:4.3'
+    implementation 'commons-io:commons-io:2.6'
+    implementation 'commons-codec:commons-codec:1.11'
+
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
